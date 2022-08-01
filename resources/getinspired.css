@@ -20,54 +20,105 @@ body {
 .logo1 {
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 15%;
-    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 10%;
     color: #D757F6;
+
     font-family: 'Rock Salt', cursive;
     -webkit-text-stroke: 0.2px white;
     line-height: 100%;
     font-size: x-large;
 }
 
+@media only screen and (max-width: 1000px) {
+    .logo1 {
+        left: 20%;
+    }
+}
+
 /* Nav bar Buttons
 */
+
+nav {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+      float: left
+    }
+  }
 
 
 button {
     background-color: white;
     color: #75A9F9;
-    width: 30%;
+    width: 25%;
     border: 2px solid #75A9F9;
     font-family: 'Open Sans', sans-serif;
     border-radius: 12px;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 25px;
     margin-left: 25px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
+
 button:hover {
     background-color: #c9d1d7;
 }
+
+
 
 /* Gid display */
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% 30% 30%;
     padding: 10px;
-    column-gap: 50px;
-    row-gap: 50px:
-    postion: absolute;
+    column-gap: 80px;
+    row-gap: 80px;
+    width: 90%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid-item {
-    margin-bottom: 50px;
+    height: 400px;
+}
+
+main {
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered-image {
+    margin: auto;
+    width: 60%;
 }
 
 .grid-background-black {
     background-color: black;
 }
+
+.grid-background-navy {
+    background-color: #131b3b;
+}
+
+.grid-background-white {
+    background-color: white;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #D757F6;
+    font-size: 20px;
+}
+
