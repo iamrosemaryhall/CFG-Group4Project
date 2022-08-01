@@ -1,5 +1,73 @@
+
+
 /* Background page color*/
 
 body {
      background-color: #f9faec;
+     margin: 0;
+}
+
+/* Header */
+.header-photo {
+    background-image: url("./images/get-inspired-image-lg.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo1 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: #D757F6;
+    font-family: 'Rock Salt', cursive;
+    -webkit-text-stroke: 0.2px white;
+    line-height: 100%;
+    font-size: x-large;
+}
+
+/* Nav bar Buttons
+*/
+
+
+button {
+    background-color: white;
+    color: #75A9F9;
+    width: 30%;
+    border: 2px solid #75A9F9;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color: #c9d1d7;
+}
+
+/* Gid display */
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    column-gap: 50px;
+    row-gap: 50px:
+    postion: absolute;
+    text-align: center;
+}
+
+.grid-item {
+    margin-bottom: 50px;
+}
+
+.grid-background-black {
+    background-color: black;
 }
