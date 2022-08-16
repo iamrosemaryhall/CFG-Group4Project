@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="resources/getinspired.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rock+Salt&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Inspired | Women in Tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="resources/getinspired.css" type="text/css" rel="stylesheet">
+     
 </head>
 <body>
     <header>
@@ -23,54 +24,78 @@
         
     </header>
     <nav>
-        <div>
-            <button class="stacked-button" onClick="document.location='./index.html'" >Women in Tech</button>
-            <button class="stacked-button" onClick="document.location='./contact.html'" >Contact us</button>
-            <button class="stacked-button" onClick="document.location='./getinspired.html'" >Get Inspired</button>
+        <div class="container text-center">
+                <div class="row mt-3">
+                    <div class="col">
+                        <button type="button" class="btn btn-cfg" onClick="document.location='./index.html'" >Women in Tech</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-cfg" onClick="document.location='./contact.html'" >Contact us</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-cfg" onClick="document.location='./getinspired.html'" >Get Inspired</button>
+                    </div>
+                </div>
         </div>
     </nav>
 
     <main>
-        <div class="grid">
+        <div class="container-fluid text-center">
+            <div class="row g-2 mt-2">
+              <div class="col-md-4">
+                <div class="grid-background-black">
+                    <a target="_blank" href="https://codefirstgirls.com/">
+                    <img src="resources/images/cfglogo.png" alt="CFG Picture">
+                    </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="grid-background-white">
+                    <a target="_blank" href="https://www.w3schools.com/">
+                    <img src="resources/images/w3schoolslogo2.png" alt="w3schools">
+                    </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="grid-background-navy">
+                    <a target="_blank" href="https://www.codecademy.com/learn">
+                    <img src="resources/images/codecademylogo1.png" alt="Codecademy">
+                    </a>
+                </div>
+              </div>
+            </div>
 
-        <div class="grid-item grid-background-black">
-            <a target="_blank" href="https://codefirstgirls.com/">
-            <img class="centered-image" src="resources/images/cfglogo.png" alt="CFG Picture">
-            </a>
-        </div>
-        <div class="grid-item grid-background-white">
-            <a target="_blank" href="https://www.w3schools.com/">
-            <img class="centered-image" src="resources/images/w3schoolslogo1.png" alt="w3schools">
-            </a>
-        </div>
-        <div class="grid-item grid-background-navy">
-            <a target="_blank" href="https://www.codecademy.com/learn">
-            <img class="centered-image" src="resources/images/codecademylogo1.png" alt="Codecademy">
-            </a>
-        </div>
-        <div class="grid-item grid-background-white codebar">
-            <a target="_blank" href="https://codebar.io/">
-            <img class="centered-image" src="resources/images/codebarlogo1.png" alt="CodeBar">
-            </a>
-        </div>
-        <div class="grid-item grid-background-white roundabout">
-            <a target="_blank" href="https://www.women-in-technology.com/">
-            <img class="centered-image" src="resources/images/wosrlogo.png" alt="Women of Silicon Roundabout">
-            </a>
-        </div>
-        <div class="grid-item grid-background-white">
-            <a target="_blank" href="https://www.shecodes.io/">
-            <img class="centered-image" src="resources/images/shecodeslogo1.png" alt="shecodes">
-            </a>
-        </div>
-
+            <div class="row g-2 pt-2">
+                <div class="col-md-4">
+                    <div class="grid-background-white codebar">
+                        <a target="_blank" href="https://codebar.io/">
+                        <img src="resources/images/codebarlogo1.png" alt="CodeBar">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="grid-background-white roundabout">
+                        <a target="_blank" href="https://www.women-in-technology.com/">
+                        <img src="resources/images/wosrlogo.png" alt="Women of Silicon Roundabout">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="grid-background-white">
+                        <a target="_blank" href="https://www.shecodes.io/">
+                        <img src="resources/images/shecodeslogo1.png" alt="shecodes">
+                        </a>
+                    </div>
+                </div>
+              </div>
+          </div>
         </div>
 
     </main>
 
-        <footer>
+        <footer class="mt-2">
             <h6>Created by CFG Group 4 August 2022</h6> 
         </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>  
 </body>
 </html>

@@ -39,36 +39,36 @@ body {
 /* Nav bar Buttons
 */
 
-nav {
+/* nav {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     button {
       float: left
     }
-  }
+  } */
 
 
-button {
+  .btn-cfg {
     background-color: white;
     color: #75A9F9;
-    width: 25%;
+    /* width: 25%; */
     border: 2px solid #75A9F9;
     font-family: 'Open Sans', sans-serif;
     border-radius: 12px;
     font-size: 15px;
-    margin-right: 25px;
+    /* margin-right: 25px;
     margin-left: 25px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
 }
 
 
-button:hover {
-    background-color: #c9d1d7;
+.btn-cfg:hover {
+    background-color: #75A9F9;
 }
 
 
@@ -96,15 +96,16 @@ button:hover {
   }
 
 
-main {
+/* main {
     width:95%;
     margin-left: auto;
     margin-right: auto;
-}
-.centered-image {
-    margin: auto;
-    width: 60%;
-}
+} */
+
+/* .centered-image {  
+    max-width: 60%;
+    height: auto;
+}  */
 
 .grid-background-black {
     background-color: black;
